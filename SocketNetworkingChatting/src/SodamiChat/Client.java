@@ -1,4 +1,4 @@
-package chatting;
+package SodamiChat;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -36,7 +36,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JScrollBar;
+
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -46,7 +46,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import chatting.Server.RoomInformation;
 
 public class Client extends JFrame implements ActionListener, KeyListener {
 
